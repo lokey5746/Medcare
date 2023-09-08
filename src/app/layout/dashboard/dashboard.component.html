@@ -1,0 +1,50 @@
+
+  <!--============== Header section=============== -->
+  <div class="row">
+    <div class="col-12 header">
+      <h1>Medcare</h1>
+      <div class="profile">
+        <img src="../../../assets/final.jpg" class="img-profile">
+      </div>
+    </div>
+  </div>
+  <!-- ==============Side Nav section=============== -->
+  <div class="row">
+    <div class="col-3">
+      <div class="wrapper">
+        <div class="sidebar">
+          <h2>Dashboard</h2>
+          <ul>
+            <li><a routerLink="./addmed"><i class="fas fa-clinic-medical"></i>View Stock</a></li>
+            <li><a routerLink="./user"><i class="fad fa-user"></i>View Users</a></li>
+            <li><a routerLink="./request"><i class="fas fa-user-tag"></i> View Request</a></li>
+            <li><a routerLink="./ngo"><i class="fas fa-kaaba"></i>Add NGO</a></li>
+            <li><a href="#"><i class="fas fa-kaaba"></i>Request Medicine</a></li>
+          </ul>
+          <a href="" class="btn btn-danger btn-logout">Logout</a>
+        </div>
+      </div>
+    </div>
+  <!--====================== End of stock secton======================= -->
+  <div class="col-9">
+    <div class="row">
+      <div class="col-12">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Footer Section -->
+<div class="row">
+  <div class="col-12 footer">
+    <div class="social-link">
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Gmail</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
